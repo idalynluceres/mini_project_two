@@ -1,0 +1,91 @@
+@import 'nav.css';
+@import 'home.css';
+
+.team h1{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+.team h1 strong{
+    color: rgb(97, 89, 89);
+}
+
+#team {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://gbvtrust.com/wp-content/uploads/2020/07/charitable-trust-banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(211, 88, 30);
+    height: 40vh;
+}
+
+.team{
+    background-color: white;
+}
+
+.team_card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.team_member{
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.team_img img{
+    width: 100%;
+}
+
+.team_img h4{
+    color: rgb(68, 67, 67);
+    font-size: 18px;
+    padding: 2px;
+}
+
+.team_img p{
+    color: gray;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.team_member hr{
+    background-color: rgb(211, 88, 30);
+}
+
+.team_des p{
+    color: gray;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.team_icon i{
+    color: gray;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.team_icon i:hover{
+    background-color: #fb774b;
+    color: white;
+}
+
+.about-main h1{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+.about-main h1 strong{
+    color: rgb(97, 89, 89);
+}
+
+.about_text{
+    color: gray;
+}

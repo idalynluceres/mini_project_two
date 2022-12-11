@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SWEET ALERT -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/ab9ef61c0d.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/shop.css">
+    <title>Project 365 | Shop Page</title>
+</head>
+<body>
+    <!-- NAVBAR START -->
+    <div class="top-nav">
+        <a href="index.html"><img src="img/logo.png" class="brand-logo" alt="logo"></a>
+        <div class="countdown-timer">
+            <h3>Our Next Distribution Starts:</h3>
+            <p id="time"></p>
+        </div>
+    </div>
+    <hr>
+    <nav class="navbar">
+        <div class="nav">
+            <ul class="nav-menu" id="activeNav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    HOME PAGE
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="shop.html" class="nav-link active">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    SHOP
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="donate.html" class="nav-link">
+                    <i class="fa-solid fa-gift"></i>
+                    MAKE A DONATION
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="team.html" class="nav-link">
+                    <i class="fa-solid fa-people-group"></i>
+                    OUR TEAM
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                    <i class="fa-solid fa-envelope"></i>
+                    CONTACT US
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HEADER START -->
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">SHOP by Project365</a>
+
+            <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">₱0.00</div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class="fa-solid fa-xmark" id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- SHOP BANNER START -->
+    <section id="shop-banner">
+        <div class="container">
+            <h5>THANK YOU FOR YOUR SUPPORT!</h5>
+            <h1><span>You're Giving</span> While You're Shopping</h1>
+            <p>We would like to extend our deepest gratitude. <br>To show that, we have amazing products ready for you!</p>
+            <a href="shop.html"><button>Shop Now</button></a>
+        </div>
+    </section>
+    <!-- SHOP BANNER END -->
+
+    <!-- SHOP SECTION START -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="img/shop/product1.webp" alt="" class="product-img">
+                <h2 class="product-title">PROJECT365 SHIRT</h2>
+                <span class="price">₱380.00</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="product-box">
+                <img src="img/shop/product2.webp" alt="" class="product-img">
+                <h2 class="product-title">PROJECT365 MUG</h2>
+                <span class="price">₱250.00</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="product-box">
+                <img src="img/shop/product3.jpg" alt="" class="product-img">
+                <h2 class="product-title">PROJECT365 HOODIE</h2>
+                <span class="price">₱700.00</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="product-box">
+                <img src="img/shop/product4.jpg" alt="" class="product-img">
+                <h2 class="product-title">PROJECT365 UMBRELLA</h2>
+                <span class="price">₱300.00</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="product-box">
+                <img src="img/shop/product5.jpg" alt="" class="product-img">
+                <h2 class="product-title">PROJECT365 SUNGLASSES</h2>
+                <span class="price">₱620.00</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="product-box">
+                <img src="img/shop/product6.png" alt="" class="product-img">
+                <h2 class="product-title">PROJECT365 CAP</h2>
+                <span class="price">₱450.00</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="product-box">
+                <img src="img/shop/product7.jpg" alt="" class="product-img">
+                <h2 class="product-title">PROJECT365 BACKPACK</h2>
+                <span class="price">₱3500.00</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="product-box">
+                <img src="img/shop/product8.jpg" alt="" class="product-img">
+                <h2 class="product-title">PROJECT365 SNEAKERS</h2>
+                <span class="price">₱4000.00</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+        </div>
+    </section>
+    <!-- SHOP SECTION END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="container">
+            <div class="content_footer">
+                <div class="profil">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo" width="150" height="50">
+                    </div>
+                    <div class="social_media">
+                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="service_area">
+                    <ul class="service_header">
+                        <li class="service_name">The Foundation</li>
+                        <li><a href="team.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                    <ul class="service_header">
+                        <li class="service_name">Let's change the world together</li>
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="shop.html">Buy A Product</a></li>
+                    </ul>
+                    <ul class="service_header">
+                        <li class="service_name">Our Children</li>
+                        <div class="img_child">
+                            <li><img src="img/home/child1.jpg" alt="" width="50px" height="50px"></li>
+                            <li><img src="img/home/child2.jpg" alt="" width="50px" height="50px"></li>
+                            <li><img src="img/home/child3.jpg" alt="" width="50px" height="50px"></li>
+                            <li><img src="img/home/child4.jpg" alt="" width="50px" height="50px"></li>
+                            <li><img src="img/home/child5.jpg" alt="" width="50px" height="50px"></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer_bottom">
+                <div class="copy_right">
+                    <i class="fa-solid fa-copyright"></i>
+                    <span>2022 project365</span>
+                </div>
+                <div class="tou">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <!-- JS LINK -->
+    <script src="js/shop.js"></script>
+</body>
+</html>
